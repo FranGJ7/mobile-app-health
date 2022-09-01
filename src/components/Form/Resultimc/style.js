@@ -14,22 +14,23 @@ const styles = StyleSheet.create({
     },
     information:{
         fontSize:18,
-        color:"#ff0043",
+        color:"#13293D",
         fontWeight:"bold"
     },
     numberImc:{
         fontSize:18,
-        color:"#ff0043",
+        color:"#006494",
         fontWeight:"bold"
     },
     boxSharedButton:{
         width:"100%",
         alignItems:"center",
+        marginTop:15,
         marginBottom:10,   
     },
     shared:{
         backgroundColor:"#1877f2",
-        borderRadius:50,
+        borderRadius:10,
         paddingBottom:5,
         paddingTop:5
     },

@@ -3,11 +3,11 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     formContext:{
-        flex:1,
+    flex:1,
        backgroundColor:"#ffffff",
        alignItems: "center",
-       borderTopRightRadius: 30,
-       borderTopLeftRadius: 30,
+       borderTopRightRadius: 20,
+       borderTopLeftRadius: 20,
        paddingTop:30
     },
     form:{
@@ -20,18 +20,18 @@ const styles = StyleSheet.create({
     },
     input:{
         width:"90%",
-        borderRadius:50,
+        borderRadius:10,
         backgroundColor:"#f6f6f6",
         height:40,
         margin:12,
         paddingLeft:10
     },
     ButtonCalculator:{
-       borderRadius: 50,
+       borderRadius: 10,
        alignItems:"center",
        justifyContent:"center",
        width:"90%",
-       backgroundColor:"#ff0043",
+       backgroundColor:"#13293D",
        paddingTop:14,
        paddingBottom:14,
        marginLeft:12,
@@ -56,12 +56,14 @@ const styles = StyleSheet.create({
     },
     resultImcItem:{
        fontSize:26,
-       color:"red",
+       color:"#006494",
+       
        height:50,
        width:"100%",
        paddingRight:20
     },
     textResultItemList:{
+        color:"#12293D",
         fontSize:16,
         
     }

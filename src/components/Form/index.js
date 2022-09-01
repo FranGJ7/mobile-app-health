@@ -92,7 +92,7 @@ export default function Form() {
                    renderItem={({item})=>{
             return(
                   <Text style={styles.resultImcItem}>
-                   <Text style={styles.textResultItemList}>Resultado IMC =
+                   <Text style={styles.textResultItemList}>Resultados IMC =
                    </Text>{item.imc}
                   </Text>
             )}}
